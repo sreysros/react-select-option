@@ -1,4 +1,14 @@
-  "roles": [
-    { "id": 1, "app_code": "app1", "code":"Rapp1", "name" : "app1", "functions": [{"fun1" : "c"}, {"fun2":"r"}], "desc" :"app1"  },
-    { "id": 2, "app_code": "app2", "code":"Rapp2", "name" : "app2", "functions": [{"fun3" : "c"}, {"fun4":"r"}], "desc" :"app2" },
-  ]  
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
