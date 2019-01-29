@@ -1,3 +1,6 @@
-roles = [
-  {app_code: 'app1', code:'Rapp1', name : 'app1', functions: [{'fun1' : 'c'}, {'fun2':'r'}], desc :'app1'}
-]
+{
+  "roles": [
+    { "id": 1, "app_code": "app1", "code":"Rapp1", "name" : "app1", "functions": [{"fun1" : "c"}, {"fun2":"r"}], "desc" :"app1"  },
+    { "id": 2, "app_code": "app2", "code":"Rapp2", "name" : "app2", "functions": [{"fun3" : "c"}, {"fun4":"r"}], "desc" :"app2" },
+  ]  
+}
