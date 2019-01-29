@@ -1,0 +1,3 @@
+roles = [
+  {app_code: 'app1', code:'Rapp1', name : 'app1', functions: [{'fun1' : 'c'}, {'fun2':'r'}], desc :'app1'}
+]
